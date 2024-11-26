@@ -1,4 +1,4 @@
-# ✂CoHD: A Counting-Aware Hierarchical Decoding with Counting🔢 Assistance for Generalized Referring Expression Segmentation
+# ✂CoHD: A Counting-Aware🔢 Hierarchical Decoding Framework for Generalized Referring Expression Segmentation
 
 [Zhuoyan Luo*](https://robertluo1.github.io/), [Yinghao Wu*](https://scholar.google.com/citations?user=lg9s6u8AAAAJ&hl=en), [Tianheng Cheng](https://scholar.google.com/citations?user=PH8rJHYAAAAJ&hl=zh-CN), [Yong Liu](https://workforai.github.io/), [Yicheng Xiao](https://easonxiao-888.github.io/), [Hongfa Wang](https://scholar.google.com.hk/citations?user=q9Fn50QAAAAJ&hl=zh-CN), [Xiao-Ping Zhang](https://sites.google.com/view/xiaopingzhang/home), [Yujiu Yang](https://scholar.google.com.hk/citations?user=4gH3sxsAAAAJ&hl=th)
 
