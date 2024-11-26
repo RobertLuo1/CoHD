@@ -37,9 +37,9 @@ Code in this repository is built upon several public repositories. Thanks for th
 ## ⭐️ BibTeX
 if you find it helpful, please cite
 ```
-@article{luo2024hdc,
-  title={HDC: Hierarchical Semantic Decoding with Counting Assistance for Generalized Referring Expression Segmentation},
-  author={Luo, Zhuoyan and Wu, Yinghao and Liu, Yong and Xiao, Yicheng and Zhang, Xiao-Ping and Yang, Yujiu},
+@article{luo2024cohd,
+  title={CoHD: A Counting-Aware Hierarchical Decoding Framework for Generalized Referring Expression Segmentation},
+  author={Luo, Zhuoyan and Wu, Yinghao and Tianheng Cheng and Liu, Yong and Xiao, Yicheng and Hongfa Wang and Zhang, Xiao-Ping and Yang, Yujiu},
   journal={arXiv preprint arXiv:2405.15658},
   year={2024}
 }
