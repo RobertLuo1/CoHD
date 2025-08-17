@@ -1,0 +1,34 @@
+_BASE_: referring_R50.yaml
+MODEL:
+  BACKBONE:
+    NAME: "D2SwinTransformer"
+  SWIN:
+    EMBED_DIM: 128
+    DEPTHS: [2, 2, 18, 2]
+    NUM_HEADS: [4, 8, 16, 32]
+    WINDOW_SIZE: 12
+    APE: False
+    DROP_PATH_RATE: 0.3
+    PATCH_NORM: True
+    PRETRAIN_IMG_SIZE: 384
+  WEIGHTS: "../pretrained/swin_base_patch4_window12_384_22k.pkl"
+  PIXEL_MEAN: [123.675, 116.280, 103.530]
+  PIXEL_STD: [58.395, 57.120, 57.375]
+
+REFERRING:                                              
+  BERT_TYPE: "../pretrained/bert"
+
+SOLVER:
+  IMS_PER_BATCH: 48
+  BASE_LR: 5.0e-5
+  LR_SCHEDULER_NAME: CompositeLR
+  MAX_ITER: 120000
+  COS_START_ITER: 0
+  COS_END_LR: 5.0e-7
+  CHECKPOINT_PERIOD: 4362
+  BACKBONE_LR_MULT: 0.4
+  COUNTING_LR_MULT: 0.1
+  TEXT_ENCODER_LR_MULT: 0.4
+TEST:
+  EVAL_PERIOD: 4362
+SEED: 24373644
